@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-header">
+        <header>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="seleccionar()">HOME</a></li>
+                    <li><a href="#about-me" onclick="seleccionar()">ABOUT</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">WORKS</a></li>
+                    <li><a href="#about-me" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i id="icono" class="fas fa-bars"></i>
+            </div>
+        </header>
+        <div class="menu-mobile">
+            <ul>
+                <li><a href="#home" onclick="seleccionar()">HOME</a></li>
+                <li><a href="#about-me" onclick="seleccionar()">ABOUT</a></li>
+                <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                <li><a href="#works" onclick="seleccionar()">WORKS</a></li>
+                <li><a href="#about-me" onclick="seleccionar()">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+        </header>
+    </div>
+
+    <section id="home" class="home">
+        <h2 class="title-name" >Valentina Alegre</h2>
+    </section>
+
+    <section id="about-me" class="about-me">
+        <div class="container-section">
+            <h2>About me</h2>  <img class="photo" src="img/yo.jpg" alt="">
+            <p><span>Hello, My name is Valentina Alegre</span>
+            I am a passionate 25-year-old junior fullstack developer. I excel in creating intuitive and engaging digital experiences using technologies such as HTML, CSS, and JavaScript. Additionally, I have experience with Git and GitHub for version control, MySQL and MongoDB for databases, Express and Node.js for server-side development, and React for building dynamic user interfaces. Along with these tools, I have a great ability to work in teams and communicate effectively, enabling me to collaborate with other developers and clients to bring ideas to life. Moreover, I have a strong curiosity and a desire for constant learning, which means I am always seeking new challenges and opportunities for both professional and personal growth.
+                 </p>
+            <div class="row">
+                <div class="col">
+                    <h3>Personal Information</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday :</strong>
+                            04/02/1999
+                        </li>
+                        <li>
+                            <strong>Phone :</strong>
+                            092993566
+                        </li>
+                        <li>
+                            <strong>Email :</strong>
+                            valentinabentancur15@gmail.com
+                        </li>
+                        
+                    </ul>
+                </div>
+
+       
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a id="cv-dowland" href="img/curriculum.jpg">Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span></a>
+                
+            </button>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Html CSS JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>98%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Git</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySQL MongoDB</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>APIs</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Node js</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>88%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Bachillerato completo</h4>
+                        <span class="casa">Colegio y Liceo El Clemente</span>
+                        <span class="fecha">2012 - 2018</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingles Avanzado</h4>
+                        <span class="casa">Anglo</span>
+                        <span class="fecha"></span>
+                        <p>Estudio de ingles durante 14 años consecutivos. Nivel de ingles Pre-First Certificate</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Diseño de Modas</h4>
+                        <span class="casa">Peter Hamers</span>
+                        <span class="fecha">2018 - 2021</span>
+                        <p>Estudio de diseño de modas durante 3 años</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item izq">
+                        <h4>Desarrollo web Frontend</h4>
+                        <span class="casa">Freelancer</span>
+                        <span class="fecha">2018 - 2021</span>
+                        <p class="separator">Comence a estudiar  programacion mediante mi propia cuenta</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                        <h4>Desarrollo web Frontend</h4>
+                        <span class="casa">Hack academy</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p class="separator">Curso de Frontend</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                        <h4>Desarrollo web FullStack</h4>
+                        <span class="casa">Hack Academy</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>Bootcamp terminado de Desarrollo Fullstack</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Creacion de diversas paginas web como Freelancer</h4>
+                        <span class="casa"></span>
+                        <span class="fecha">2022 - actualidad</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Emprendimiento de diseño</h4>
+                        <span class="casa">Autonomo</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>Creacion y venta de distintos tipos de indumentaria</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Moza en Catering de eventos</h4>
+                        <span class="casa">M & A</span>
+                        <span class="fecha">2020 - 2022</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+ 
+    <!-- footer -->
+    <footer>
+        <a href="#home" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://linkedin.com/in/valentina-alegre-680224273"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/valuualegre15"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
